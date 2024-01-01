@@ -1,4 +1,4 @@
-![image](https://github.com/ChandaniNovita/german_credit/assets/146313340/92aaa52e-0e67-4261-b40b-909287636123)# Laporan Proyek Machine Learning
+# Laporan Proyek Machine Learning
 ### Nama : Chandani Novitasari
 ### Nim : 211351036
 ### Kelas : Malam A

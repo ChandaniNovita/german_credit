@@ -1,4 +1,4 @@
-# Laporan Proyek Machine Learning
+![image](https://github.com/ChandaniNovita/german_credit/assets/146313340/92aaa52e-0e67-4261-b40b-909287636123)# Laporan Proyek Machine Learning
 ### Nama : Chandani Novitasari
 ### Nim : 211351036
 ### Kelas : Malam A
@@ -265,4 +265,6 @@ plt.show()
 Dengan menggunakan algoritma k-means dan konsep clustering, kita dapat mengelompokkan data menjadi kelompok-kelompok yang memiliki karakteristik serupa, membantu dalam pemahaman dan pengambilan keputusan lebih lanjut.
 
 ## Deployment
+Berikut adalah link streamlitnya [German Credit](https://germancredit-8szqub5anhgtxhrwaestpv.streamlit.app/)
+![image](https://github.com/ChandaniNovita/german_credit/blob/main/Screenshot%20(257).png)
 

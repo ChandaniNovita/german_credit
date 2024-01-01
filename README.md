@@ -158,6 +158,7 @@ Visualisasi
 ```python
 df.hist(figsize = (20,15));
 ```
+![image](https://github.com/ChandaniNovita/german_credit/blob/main/visualisasi1.png)
 Pada visualisasi pertama ini membuat visualisasi grafik pada data numerik yaitu kolom age, job, credit amount dan duration. Dan didapatkan :
 
 Pada grafik age/umur terjadi pelonjakan kenaikan dari umur 20 ke 25 dan dari 25 sampai 40 merupakan umur yang dengan jumlah terbanyak dan semakin tua umurnya semakin menurun grafik
@@ -169,6 +170,10 @@ for col in df[categorical].columns:
     sns.countplot(y =col, data = df)
     plt.show()
 ```
+![image](https://github.com/ChandaniNovita/german_credit/blob/main/visualisasi2.png)
+![image](https://github.com/ChandaniNovita/german_credit/blob/main/visualisasi4.png)
+![image](https://github.com/ChandaniNovita/german_credit/blob/main/visualisasi5.png)
+1[image](https://github.com/ChandaniNovita/german_credit/blob/main/visualisasi6.png).
 Pada visualisasi pertama ini membuat visualisasi grafik pada data categorical yaitu kolom sex, housing, saving accounts, checking account dan purpose. Dan didapatkan :
 
 - Pada atribut Sex/Gender : Nasabah kredit bank lebih banyak dari gender laki-laki perbandingannya mencapai 7:3.
@@ -183,6 +188,7 @@ corr = df.corr()
 plt.figure(figsize=(10,8));
 sns.heatmap(corr, annot=True, fmt='.2f');
 ```
+![image](https://github.com/ChandaniNovita/german_credit/blob/main/visualisasi3.png)
 #### Preprocessing
 Menyalin data
 ```python
@@ -226,6 +232,7 @@ ax.set_xlabel('Clusters')
 ax.set_ylabel('inertia')
 
 ```
+![image](https://github.com/ChandaniNovita/german_credit/blob/main/elbow.png).
 Pada proses ini mendefinisikan algoritma Machine Learning K-Means dan menyimpan hasil kuslter kedalam kolom baru yaitu kolom 'Cluster'
 ```python
 def k_means(n_clust):
@@ -253,6 +260,7 @@ ax.add_artist(legend)
 
 plt.show()
 ```
+![image](https://github.com/ChandaniNovita/german_credit/blob/main/cluster.png)
 ## Evaluation
 Dengan menggunakan algoritma k-means dan konsep clustering, kita dapat mengelompokkan data menjadi kelompok-kelompok yang memiliki karakteristik serupa, membantu dalam pemahaman dan pengambilan keputusan lebih lanjut.
 

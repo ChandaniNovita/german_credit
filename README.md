@@ -76,7 +76,7 @@ Ekstract file yang sudah di download
 !ls german-credit
 ```
 Import dataset sudah selesai, selanjutnya kita akan melanjutkan ke proses berikut.
-###Import Library
+#### Import Library
 Berikut adalah beberapa library yang akan kita gunakan.
 ```python
 import pandas as pd
@@ -105,7 +105,7 @@ Masukkan datasetnya dan melihat 5 isi pertama dari dataset tersebut.
 df =  pd.read_csv('german-credit/german_credit_data.csv', index_col=0)
 df.head(5)
 ```
-###Data Discovery
+#### Data Discovery
 Data discovery merujuk pada proses eksplorasi dan pemahaman data yang bertujuan untuk menemukan pola, tren, dan wawasan yang tersembunyi dalam dataset. Ini merupakan bagian penting dari analisis data dan memungkinkan pengguna untuk membuat keputusan berdasarkan pemahaman yang lebih baik tentang informasi yang terkandung dalam data.
 
 Pada dataset ini didapatkan :
@@ -136,7 +136,7 @@ Membedakan kolom yang bertipe numerik dan kategori
 numeric = ['Age', 'Job', 'Credit amount', 'Duration']
 categorical = ['Sex', 'Housing', 'Saving accounts', 'Checking account', 'Purpose']
 ```
-###Exploratori Data Analysis(EDA)
+#### Exploratori Data Analysis(EDA)
 Cek kembali data yang kosong
 
 Didapatkan pada kolom Saving account 183 data kosong dan pada kolom Checking amount 394 data kossong sedangakan pada kolom lainnya tidak terdapat data yang kosong.
@@ -183,7 +183,7 @@ corr = df.corr()
 plt.figure(figsize=(10,8));
 sns.heatmap(corr, annot=True, fmt='.2f');
 ```
-###Preprocessing
+#### Preprocessing
 Menyalin data
 ```python
 data = df.copy()

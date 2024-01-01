@@ -173,7 +173,7 @@ for col in df[categorical].columns:
 ![image](https://github.com/ChandaniNovita/german_credit/blob/main/visualisasi2.png)
 ![image](https://github.com/ChandaniNovita/german_credit/blob/main/visualisasi4.png)
 ![image](https://github.com/ChandaniNovita/german_credit/blob/main/visualisasi5.png)
-1[image](https://github.com/ChandaniNovita/german_credit/blob/main/visualisasi6.png).
+![image](https://github.com/ChandaniNovita/german_credit/blob/main/visualisasi6.png).
 Pada visualisasi pertama ini membuat visualisasi grafik pada data categorical yaitu kolom sex, housing, saving accounts, checking account dan purpose. Dan didapatkan :
 
 - Pada atribut Sex/Gender : Nasabah kredit bank lebih banyak dari gender laki-laki perbandingannya mencapai 7:3.
